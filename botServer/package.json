@@ -1,0 +1,28 @@
+{
+  "name": "botserver",
+  "version": "1.0.0",
+  "description": "Wazaran Bot Server (Message, Maps & etc)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Message",
+    "Maps",
+    "Bots"
+  ],
+  "author": "n.ramadhan",
+  "license": "ISC",
+  "dependencies": {
+    "@turf/turf": "^5.1.6",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "geojson": "^0.5.0",
+    "jsonfile": "^5.0.0",
+    "log-timestamp": "^0.3.0",
+    "request": "^2.88.0",
+    "sequelize": "^5.1.1",
+    "tedious": "^5.0.3"
+  }
+}
